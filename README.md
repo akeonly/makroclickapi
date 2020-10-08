@@ -4,7 +4,7 @@ reverse engineer mackroclick to allow scripted ordering
 # finding
 - API Endpoint : https://ocs-prod-api.makroclick.com/
 - Example POST call script when I search for "มรกต"
-
+```javascript
 fetch("https://ocs-prod-api.makroclick.com/next-product/public/api/product/smartSearchV2", {
   "headers": {
     "accept": "application/json, text/plain, */*",
@@ -23,8 +23,9 @@ fetch("https://ocs-prod-api.makroclick.com/next-product/public/api/product/smart
 })
 .then(res => res.json())
 .then(console.log)
-
+```
 - Create Cart
+```javascript
 fetch("https://www.makroclick.com/api/createSessionCartOpen", {
   "headers": {
     "accept": "application/json, text/plain, */*",
@@ -43,8 +44,9 @@ fetch("https://www.makroclick.com/api/createSessionCartOpen", {
 })
 .then(res => res.json())
 .then(console.log)
-
+```
 - Add item to cart
+```javascript
 fetch("https://ocs-prod-api.makroclick.com/next-ocs-member/user/cart/changeQuantity", {
   "headers": {
     "accept": "application/json, text/plain, */*",
@@ -64,3 +66,4 @@ fetch("https://ocs-prod-api.makroclick.com/next-ocs-member/user/cart/changeQuant
 })
 .then(res => res.json())
 .then(console.log)
+```
