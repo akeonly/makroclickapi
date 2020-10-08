@@ -11,7 +11,6 @@ fetch("https://ocs-prod-api.makroclick.com/next-product/public/api/product/smart
     "accept-language": "en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7,zh-CN;q=0.6,zh;q=0.5",
     "content-type": "application/json;charset=UTF-8",
     "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-site"
   },
   "referrer": "https://www.makroclick.com/",
@@ -32,7 +31,6 @@ fetch("https://www.makroclick.com/api/createSessionCartOpen", {
     "accept-language": "en-US,en;q=0.9,th-TH;q=0.8,th;q=0.7,zh-CN;q=0.6,zh;q=0.5",
     "content-type": "application/json;charset=UTF-8",
     "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-origin"
   },
   "referrer": "https://www.makroclick.com/th/search-results/?keyword=%E0%B8%A1%E0%B8%A3%E0%B8%81%E0%B8%95",
@@ -54,7 +52,6 @@ fetch("https://ocs-prod-api.makroclick.com/next-ocs-member/user/cart/changeQuant
     "authorization": "Bearer 966b9114-8dfe-4970-8197-edf9d6fa2a95",
     "content-type": "application/json;charset=UTF-8",
     "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-site"
   },
   "referrer": "https://www.makroclick.com/",
@@ -76,7 +73,6 @@ fetch("https://ocs-prod-api.makroclick.com/next-ocs-member/user/cart/removeItem"
     "authorization": "Bearer 966b9114-8dfe-4970-8197-edf9d6fa2a95",
     "content-type": "multipart/form-data; boundary=----WebKitFormBoundaryLfuwLL9WW2SxNSDX",
     "sec-fetch-dest": "empty",
-    "sec-fetch-mode": "cors",
     "sec-fetch-site": "same-site"
   },
   "referrer": "https://www.makroclick.com/",
